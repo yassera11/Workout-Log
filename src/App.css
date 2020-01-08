@@ -1,0 +1,80 @@
+.header {
+    margin: 25px;
+    padding: 20px;
+    margin-left: 40px;
+    display: flex;
+    background: rgba(204, 62, 26, 0.815);
+    width: 15%;
+    box-shadow: 0px 0px 2.1px 2.1px rgb(240, 233, 233);
+}
+
+.header h1 {
+    color: rgb(245, 248, 250);
+}
+
+.workoutItem {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #a7aaafce;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 98%;
+}
+
+.workoutItem .X {
+    background-color: rgba(212, 17, 17, 0.856);
+    border: 0;
+    padding: 10px;
+    color: rgb(245, 248, 250);
+}
+
+.WorkoutItem-name {
+    justify-content: flex-start;
+    width: 6%;
+}
+
+.WorkoutItem-pounds.up {
+    color: rgb(121, 214, 15);
+}
+
+.WorkoutItem-pounds.down {
+    color: red;
+}
+
+.workoutLog {
+    display: flex;
+    flex-flow: column;
+    width: 97%;
+    justify-content: space-around;
+}
+
+.addWorkout {
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.addWorkout input {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(62, 72, 78);
+    padding: 15px;
+    color: rgba(245, 248, 250, 0.788);
+    font-size: 14px;
+}
+
+.addWorkout input::placeholder {
+    color: rgba(245, 248, 250, 0.788);
+}
+
+.addWorkout button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(62, 143, 8);
+    padding: 20px;
+    border: 0;
+    color: rgb(245, 248, 250);
+    font-size: 14px;
+}
